@@ -38,12 +38,12 @@ const login = function (event) {
     const names = this.name;
     const email = this.email;
     const password = this.password;
-    if (names.value === '' && email.value === '' && password.value === '') {
-        alert('Please Provide Every Details');
-    } else {
+    if (names.value && email.value && password.value) {
         hero.style.display = 'none';
         bankArea.style.display = 'block';
         message(names.value, userName);
+    } else {
+        alert('Please Provide Every Details');
     }
 };
 
