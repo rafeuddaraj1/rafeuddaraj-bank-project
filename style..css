@@ -1,0 +1,32 @@
+#hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.login-area {
+  padding: 50px;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+}
+#bank-section-area{
+  padding: 50px 0;
+}
+.deposit{
+  background-color: blueviolet;
+}
+.withdraw{
+  background-color: springgreen;
+}
+.balance{
+  background-color: tomato;
+}
+.account{
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.settings{
+  padding: 30px;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+}
